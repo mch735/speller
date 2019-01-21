@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.files = Dir['lib/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
 
-  s.add_dependency 'rest-client'
+  s.add_dependency 'rest-client', '>= 2.0.2'
 end

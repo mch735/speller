@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     speller (0.0.1)
-      rest-client
+      rest-client (>= 2.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +27,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rest-client
   speller!
 
 BUNDLED WITH
