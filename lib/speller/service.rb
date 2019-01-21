@@ -8,7 +8,7 @@ module Speller
     def ask(text, options = {})
 
       begin
-        response = RestClient.post SERVICE_URL, options.merge({text: text})
+        response = ::RestClient.post SERVICE_URL, options.merge({text: text})
         JSON.parse(response.to_str)
       rescue => e
         e.response
