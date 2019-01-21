@@ -27,7 +27,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rest-client
   speller!
 
 BUNDLED WITH
