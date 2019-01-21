@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class SpellerTest < ActiveSupport::TestCase
-  test "truth" do
+  test 'truth' do
     assert_kind_of Module, Speller
   end
 end
